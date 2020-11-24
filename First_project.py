@@ -5,9 +5,9 @@ def odd_even_project() :
         try:
             number = int(number)
             if number%2 == 0 :
-                print("It's an even number")
+                print("It's an even number =)")
             else :
-                print("It's an odd number")
+                print("It's an odd number :)")
         except ValueError:
             print("Please Enter a valid number")
 
